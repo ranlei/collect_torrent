@@ -18,15 +18,17 @@ class KickassSpider(Spider):
 
     def parse(self,  response):
 
-        entires = response.xpath('//tr/text()')
+        entires = response.xpath('//div[@class="markeredBlock torType pdfType"]/a')
         items = [ ]
         for entry in entires:
-            print entry
             item = TorrentItem()
-            item['title'] = entry.xpath('td[1]/div[2]/a[2]/text()').extract()
-            item['url'] = entry.xpath('td[1]/div[2]/a[2]/@href').extract()
-            item['torrent'] = entry.xpath('td[1]/div[1]/a[starts-with(@title,"Download torrent file")]/@href').extract()
-            item['size'] = entry.xpath('td[2]/text()[1]').extract()
+            print entry
+            # item['title'] = entry.xpath('td[1]/div[2]/a[2]/text()').extract()
+            # item['url'] = entry.xpath('td[1]/div[2]/a[2]/@href').extract()
+            item['torrent'] = entry.xpath('attribute::href').extract()
+            print item['torrent']
+            item['size'] = entry.xpath('child::text()').extract()
+            print item['size']
             item['sizeType'] = entry.xpath('td[2]/span/text()').extract()
             item['age'] = entry.xpath('td[4]/text()').extract()
             item['seed'] = entry.xpath('td[5]/text()').extract()
