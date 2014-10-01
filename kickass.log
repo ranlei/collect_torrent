@@ -1,0 +1,140 @@
+2014-10-01 13:11:18+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: kickass)
+2014-10-01 13:11:18+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-10-01 13:11:18+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kickass.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'RANDOMIZE_DOWNLOAD_DELAY': False, 'SPIDER_MODULES': ['kickass.spiders'], 'BOT_NAME': 'kickass', 'USER_AGENT': 'http://www.kickasstorrents.com)', 'LOG_FILE': './kickass.log', 'DOWNLOAD_DELAY': 5}
+2014-10-01 13:11:18+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-10-01 13:11:18+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-10-01 13:11:18+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-10-01 13:11:18+0800 [scrapy] INFO: Enabled item pipelines: TorrentPipeline
+2014-10-01 13:11:18+0800 [kickass] INFO: Spider opened
+2014-10-01 13:11:18+0800 [kickass] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-10-01 13:11:25+0800 [kickass] INFO: Closing spider (finished)
+2014-10-01 13:11:25+0800 [kickass] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 510,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 15701,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 1,
+	 'downloader/response_status_count/301': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 10, 1, 5, 11, 25, 212041),
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2014, 10, 1, 5, 11, 18, 960270)}
+2014-10-01 13:11:25+0800 [kickass] INFO: Spider closed (finished)
+2014-10-01 13:13:18+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: kickass)
+2014-10-01 13:13:18+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-10-01 13:13:18+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kickass.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'RANDOMIZE_DOWNLOAD_DELAY': False, 'SPIDER_MODULES': ['kickass.spiders'], 'BOT_NAME': 'kickass', 'USER_AGENT': 'http://www.kickasstorrents.com)', 'LOG_FILE': './kickass.log', 'DOWNLOAD_DELAY': 5}
+2014-10-01 13:13:18+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-10-01 13:13:18+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-10-01 13:13:18+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-10-01 13:13:18+0800 [scrapy] INFO: Enabled item pipelines: TorrentPipeline
+2014-10-01 13:13:18+0800 [kickass] INFO: Spider opened
+2014-10-01 13:13:18+0800 [kickass] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-10-01 13:13:25+0800 [kickass] INFO: Closing spider (finished)
+2014-10-01 13:13:25+0800 [kickass] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 510,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 15731,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 1,
+	 'downloader/response_status_count/301': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 10, 1, 5, 13, 25, 200069),
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2014, 10, 1, 5, 13, 18, 811645)}
+2014-10-01 13:13:25+0800 [kickass] INFO: Spider closed (finished)
+2014-10-01 13:13:34+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: kickass)
+2014-10-01 13:13:34+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-10-01 13:13:34+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kickass.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'RANDOMIZE_DOWNLOAD_DELAY': False, 'SPIDER_MODULES': ['kickass.spiders'], 'BOT_NAME': 'kickass', 'USER_AGENT': 'http://www.kickasstorrents.com)', 'LOG_FILE': './kickass.log', 'DOWNLOAD_DELAY': 5}
+2014-10-01 13:13:34+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-10-01 13:13:34+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-10-01 13:13:34+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-10-01 13:13:34+0800 [scrapy] INFO: Enabled item pipelines: TorrentPipeline
+2014-10-01 13:13:34+0800 [kickass] INFO: Spider opened
+2014-10-01 13:13:34+0800 [kickass] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-10-01 13:13:41+0800 [kickass] INFO: Closing spider (finished)
+2014-10-01 13:13:41+0800 [kickass] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 510,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 15681,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 1,
+	 'downloader/response_status_count/301': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 10, 1, 5, 13, 41, 159040),
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2014, 10, 1, 5, 13, 34, 403667)}
+2014-10-01 13:13:41+0800 [kickass] INFO: Spider closed (finished)
+2014-10-01 13:16:14+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: kickass)
+2014-10-01 13:16:14+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-10-01 13:16:14+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kickass.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'RANDOMIZE_DOWNLOAD_DELAY': False, 'SPIDER_MODULES': ['kickass.spiders'], 'BOT_NAME': 'kickass', 'USER_AGENT': 'http://www.kickasstorrents.com)', 'LOG_FILE': './kickass.log', 'DOWNLOAD_DELAY': 5}
+2014-10-01 13:16:14+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-10-01 13:16:14+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-10-01 13:16:14+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-10-01 13:16:14+0800 [scrapy] INFO: Enabled item pipelines: TorrentPipeline
+2014-10-01 13:16:14+0800 [kickass] INFO: Spider opened
+2014-10-01 13:16:14+0800 [kickass] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-10-01 13:16:21+0800 [kickass] INFO: Closing spider (finished)
+2014-10-01 13:16:21+0800 [kickass] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 510,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 15700,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 1,
+	 'downloader/response_status_count/301': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 10, 1, 5, 16, 21, 814290),
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2014, 10, 1, 5, 16, 14, 901098)}
+2014-10-01 13:16:21+0800 [kickass] INFO: Spider closed (finished)
+2014-10-01 13:16:31+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: kickass)
+2014-10-01 13:16:31+0800 [scrapy] INFO: Optional features available: ssl, http11
+2014-10-01 13:16:31+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kickass.spiders', 'LOG_LEVEL': 'INFO', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'RANDOMIZE_DOWNLOAD_DELAY': False, 'SPIDER_MODULES': ['kickass.spiders'], 'BOT_NAME': 'kickass', 'USER_AGENT': 'http://www.kickasstorrents.com)', 'LOG_FILE': './kickass.log', 'DOWNLOAD_DELAY': 5}
+2014-10-01 13:16:31+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2014-10-01 13:16:31+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2014-10-01 13:16:31+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2014-10-01 13:16:31+0800 [scrapy] INFO: Enabled item pipelines: TorrentPipeline
+2014-10-01 13:16:31+0800 [kickass] INFO: Spider opened
+2014-10-01 13:16:31+0800 [kickass] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2014-10-01 13:16:38+0800 [kickass] INFO: Closing spider (finished)
+2014-10-01 13:16:38+0800 [kickass] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 510,
+	 'downloader/request_count': 2,
+	 'downloader/request_method_count/GET': 2,
+	 'downloader/response_bytes': 15760,
+	 'downloader/response_count': 2,
+	 'downloader/response_status_count/200': 1,
+	 'downloader/response_status_count/301': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2014, 10, 1, 5, 16, 38, 736207),
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 2,
+	 'scheduler/dequeued/memory': 2,
+	 'scheduler/enqueued': 2,
+	 'scheduler/enqueued/memory': 2,
+	 'start_time': datetime.datetime(2014, 10, 1, 5, 16, 31, 134156)}
+2014-10-01 13:16:38+0800 [kickass] INFO: Spider closed (finished)

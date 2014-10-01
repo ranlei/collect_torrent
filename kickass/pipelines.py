@@ -11,9 +11,10 @@ import urllib2
 from scrapy.http.request import Request
 
 class TorrentPipeline(object):
-    def process_item(self, item, spider):
+    def process_item(self,  item,  spider):
         print 'Downloading ' + item['title'][0]
-        path = 'http:'+item['torrent'][0]
+        path = item['torrent'][0]
+        print path
         subprocess.call(['./curl_torrent.sh',path])
         time.sleep(10)
         return item

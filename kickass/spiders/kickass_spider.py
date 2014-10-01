@@ -17,24 +17,22 @@ class KickassSpider(Spider):
         ]
 
     def parse(self,  response):
-
-        entires = response.xpath('//div[@class="markeredBlock torType pdfType"]/a')
-        items = [ ]
+        xp = lambda x,y: x.xpath(y).extract()
+        entires = response.xpath('//tr[starts-with(@id,"torrent_")]')
+        items = []
         for entry in entires:
-            item = TorrentItem()
             print entry
-            # item['title'] = entry.xpath('td[1]/div[2]/a[2]/text()').extract()
-            # item['url'] = entry.xpath('td[1]/div[2]/a[2]/@href').extract()
-            item['torrent'] = entry.xpath('attribute::href').extract()
-            print item['torrent']
-            item['size'] = entry.xpath('child::text()').extract()
-            print item['size']
-            item['sizeType'] = entry.xpath('td[2]/span/text()').extract()
-            item['age'] = entry.xpath('td[4]/text()').extract()
-            item['seed'] = entry.xpath('td[5]/text()').extract()
-            item['leech'] = entry.xpath('td[6]/text()').extract()
+            item = TorrentItem()
+            item['title'] = xp(entry,'td[1]/div[2]/div[1]/a[1]/text()')
+            item['url'] = xp(entry,'td[1]/div[2]/div[1]/a[1]/@href')
+            item['torrent'] = xp(entry,'td[1]/div[1]/a[starts-with(@title,"Download torrent file")]/@href')
+            item['size'] = xp(entry,'td[2]/text()')
+            item['sizeType'] = xp(entry,'td[2]/span/text()')
+            item['age'] = xp(entry,'td[4]/text()')
+            item['seed'] = xp(entry,'td[5]/text()')
+            item['leech'] = xp(entry,'td[6]/text()')
             # for s in self.keywords:
-            #     if s.lower() in item['title'][0].lower():
-            #         items.append(item)
-            #         break
+                # if s.lower() in item['title'][0].lower():
+            items.append(item)
+                    # break
         return items
